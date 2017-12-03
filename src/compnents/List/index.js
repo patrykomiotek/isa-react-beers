@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { beers } from '../../data/list';
 
 class List extends Component {
 
@@ -11,22 +12,7 @@ class List extends Component {
       desc: '',
       kind: '',
       vol: '',
-      beers: [{
-        name: 'Perła',
-        description: 'Piwo jasne lubelskie najlepsze na Świecie',
-        kind: 'liht lager',
-        voltage: '6.2%'
-      }, {
-        name: 'Perła Export',
-        description: 'Piwo jasne lubelskie najlepsze na Świecie',
-        kind: 'liht lager',
-        voltage: '6.2%'
-      }, {
-        name: 'Perła Mocna',
-        description: 'Piwo jasne lubelskie najlepsze na Świecie',
-        kind: 'liht lager',
-        voltage: '6.2%'
-      }]
+      beers
     }
   }
 
